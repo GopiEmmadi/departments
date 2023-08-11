@@ -1,0 +1,19 @@
+<div class="con">
+  <table class="bordered-table">
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>details</th>
+        <th>edit</th>
+      </tr>
+
+      <tr *ngFor="let task of tasks; let i=index;">
+        <td>{{task.name}}</td>
+        <td>{{task.age}}</td>
+        <td><button type="button" (click)="editButton(task.studentId)">view</button></td>
+        <td><button type="button" (click)="editb()">edit</button></td>
+      </tr>
+  </table>
+  <router-outlet></router-outlet>
+</div>
+

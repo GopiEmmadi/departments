@@ -1,0 +1,22 @@
+.bordered-table {
+  border-collapse: collapse;
+}
+.buttons-con{
+  margin-bottom: 20px;
+}
+.buttons-con button{
+  margin-right: 10px;
+  user-select: none;
+}
+.con{
+  display: flex;
+}
+.bordered-table th, .bordered-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.bordered-table th {
+  background-color: #f2f2f2;
+}
